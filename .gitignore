@@ -1,5 +1,6 @@
 # Prerequisites
 *.d
+*.bak
 
 # Compiled Object files
 *.slo
@@ -30,3 +31,9 @@
 *.exe
 *.out
 *.app
+
+#Bash
+*.bat
+
+#Build folder
+build
