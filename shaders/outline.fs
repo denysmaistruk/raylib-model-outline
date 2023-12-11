@@ -30,7 +30,7 @@ void main()
 
                 if (texture(texture0, fragTexCoord + vec2(i, j) * vec2(x, y)).rgb != vec3(0))
                 {
-                    finalColor = vec4(1, 0.63, 0, 1);
+                    finalColor = color;
                     return;
                 }
             }
